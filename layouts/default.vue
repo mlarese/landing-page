@@ -1,5 +1,5 @@
 <template>
-  <v-app dark>
+  <v-app>
     <notifications
       position="top right"
       style="margin-top:50px"/>
@@ -7,11 +7,11 @@
     <v-toolbar
       tabs
       class="elevation-1 app-toolbar ma-0"
-      style="color: white;
+      style="
         font-size: 22px;">
 
       <a
-        style="color: white;
+        style="
         font-size: 22px;"
         href="/prebooking"><b>M</b><b>M</b>one</a>
 

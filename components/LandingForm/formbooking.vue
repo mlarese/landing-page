@@ -1,8 +1,10 @@
 <template>
   <v-container
     fluid
-    grid-list-md>
-    <v-card class="pa-4">
+    grid-list-md
+    class="elevation-0"
+  >
+    <v-card class="pa-4 elevation-0">
       <v-layout><h1> {{ $vuetify.t(' SUMMARY OF YOUR REQUEST' ) }}</h1> </v-layout>
       <v-layout >
 
@@ -77,7 +79,7 @@
             hide-details/>
         </v-flex>
       </v-layout>
-      <p> {{ $vuetify.t('Carried out by' ) }}</p>
+      <v-flex class="font-weight-bold subheading"> {{ $vuetify.t('CARRY OUT BY' ) }}</v-flex>
       <v-layout
         row>
 
@@ -134,16 +136,16 @@
         <v-flex
           xs12
           sm6>
-          <h2 >{{ $vuetify.t('Expire Date') }}</h2>
+          <strong class="font-weight-bold subheading">{{ $vuetify.t('Expire Date') }}</strong>
           <v-layout mx-2>
-            <span class="warning">23:4:4351</span>
+            <span class="error">23:4:4351</span>
           </v-layout>
         </v-flex>
 
         <v-flex
           xs12
           sm6>
-          <strong >{{ $vuetify.t('Protocol') }}</strong>
+          <v-flex class="subheading">{{ $vuetify.t('Protocol') }}</v-flex>
           <v-layout mx-2>
             <span > das </span>
           </v-layout>

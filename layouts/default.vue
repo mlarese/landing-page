@@ -1,9 +1,5 @@
 <template>
   <v-app>
-    <notifications
-      position="top right"
-      style="margin-top:50px"/>
-
     <v-toolbar
       tabs
       class="elevation-1 app-toolbar ma-0"

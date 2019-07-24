@@ -2,7 +2,7 @@
   <!--eslint-disable-->
   <v-container>
     <v-layout class="display-3">
-      <span style="color: #9E9D24"> {{ $vuetify.t(' DEAL FIRST ' ) }}</span>
+      <span style="color: #9E9D24"> {{ $vuetify.t('FIRST DEAL' ) }}</span>
     </v-layout>
     <v-layout class="subheading">
       <span> {{ $vuetify.t(' ROOM 1' ) }}

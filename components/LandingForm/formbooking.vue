@@ -5,7 +5,7 @@
   >
     <v-card
       class="pa-4 elevation-0"
-      style="background-color: #ECEFF1" >
+      style="background-color: #ECEFF1">
       <v-layout style="color: #9E9D24"><h1> {{ $vuetify.t(' SUMMARY OF YOUR REQUEST' ) }}</h1> </v-layout>
       <v-layout class="elevation-0">
         <v-flex

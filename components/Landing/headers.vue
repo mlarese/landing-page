@@ -1,6 +1,6 @@
 <template>
   <v-container fluid>
-    <v-layout class="align-baseline"><h2> {{ $vuetify.t('Hotel Ambassador C 2017') }}</h2> {{ address }} - {{ cap }} {{ city }} - {{ $vuetify.t('Tel') }}:<h2>{{ tel }}</h2>> - {{ $vuetify.t('Fax') }}: <h2>{{ fax }}</h2>> - {{ $vuetify.t('Email') }}: <h2>{{ email }}</h2>> </v-layout>
+    <v-layout class="align-baseline"><h2>{{ $vuetify.t('Hotel Ambassador C 2017') }}</h2> {{ address }} - {{ cap }} {{ city }} - {{ $vuetify.t('Tel') }}:<h2>{{ tel }}</h2>> - {{ $vuetify.t('Fax') }}: <h2>{{ fax }}</h2>> - {{ $vuetify.t('Email') }}: <h2>{{ email }}</h2>> </v-layout>
     <v-carousel
       hide-controls
     >
